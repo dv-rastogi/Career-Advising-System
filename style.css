@@ -1,0 +1,140 @@
+body{
+  background-color: #384087;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+	/*font-family: "Bolten";*/
+  font-family: Montserrat, 'Source Sans Pro', Arial, sans-serif;
+	color: white;
+  font-size: 20pt;
+  letter-spacing: 2px;
+  height: 80px;
+  line-height: 80px;
+  background-color: rgba(10,10,10,0.6);
+  position: fixed;
+  color: ;
+  text-transform: uppercase;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  margin-top: 0px;
+  backdrop-filter: blur(6px);
+}
+
+h3{
+  margin-top: 120px;
+  color: rgba(0,0,0,0.5);
+  font-family: montserrat;
+  font-size: 10pt;
+  text-transform: uppercase;
+}
+
+select {
+  width: 300px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+input{
+  width: 250px;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  border-radius: 4px;
+  color: #333;
+  font-size: 15px;
+  background-color: #fff;
+  font-size: 10pt;
+  height: 40px;
+  padding: 8px 8px 8px 8px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+input[type='radio']{
+  width: 40px;  
+  height: initial;
+}
+
+input[type=text]:focus {
+  width: 400px;
+}
+
+div.a {
+  line-height: 1.8;
+}
+
+h4{
+	color:white;
+	line-height: 200%;
+	font-style: normal;
+	font-family: Montserrat;
+  height: 60px;
+  line-height: 60px;
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+hr{
+	color: white;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #668aff;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 12px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+h5{
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 45px;
+}
+
+
